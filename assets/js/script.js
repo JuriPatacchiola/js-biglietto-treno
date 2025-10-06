@@ -37,3 +37,6 @@ let prezzoFinale = prezzoBase * (1 - sconto);
 
 /* Arrotondo a due decimali */
 let prezzoArrotondato = Math.round((prezzoFinale + Number.EPSILON) * 100) / 100;
+
+/* Mostro il prezzo finale all'utente */
+alert(`Il prezzo del biglietto è: €${prezzoArrotondato.toFixed(2)}`);
