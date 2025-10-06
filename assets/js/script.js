@@ -10,3 +10,7 @@
 */
 
 
+/* Chiediamo i chilometri da percorrere all'utente */
+let km = Number(prompt('Quanti chilometri vuoi percorrere?'));
+
+
