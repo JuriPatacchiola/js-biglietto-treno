@@ -40,3 +40,11 @@ let prezzoArrotondato = Math.round((prezzoFinale + Number.EPSILON) * 100) / 100;
 
 /* Mostro il prezzo finale all'utente */
 alert(`Il prezzo del biglietto è: €${prezzoArrotondato.toFixed(2)}`);
+
+/* Stampo anche in console i dati riepilogativi */
+console.log('--- Riepilogo Biglietto ---');
+console.log(`Chilometri da percorrere: ${km}`);
+console.log(`Età del passeggero: ${eta}`);
+console.log(`Prezzo base: €${prezzoBase.toFixed(2)}`);
+console.log(`Sconto applicato: ${sconto * 100}%`);
+console.log(`Prezzo finale: €${prezzoArrotondato.toFixed(2)}`);
