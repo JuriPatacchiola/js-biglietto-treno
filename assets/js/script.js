@@ -34,3 +34,6 @@ if (eta < 18) {
 
 /* Calcolo il prezzo finale applicando lo sconto */
 let prezzoFinale = prezzoBase * (1 - sconto);
+
+/* Arrotondo a due decimali */
+let prezzoArrotondato = Math.round((prezzoFinale + Number.EPSILON) * 100) / 100;
