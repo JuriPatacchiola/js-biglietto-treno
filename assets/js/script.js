@@ -19,3 +19,5 @@ let eta = Number(prompt('Quanti anni ha il passeggero?'));
 /* Prezzo base al km */
 const prezzoKm = 0.21;
 
+/* Calcolo il prezzo base */
+let prezzoBase = km * prezzoKm;
