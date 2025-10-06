@@ -10,9 +10,12 @@
 */
 
 
-/* Chiediamo i chilometri da percorrere all'utente */
+/* Chiedo i chilometri da percorrere all'utente */
 let km = Number(prompt('Quanti chilometri vuoi percorrere?'));
 
-/* Chiediamo l'età del passeggero */
+/* Chiedo l'età del passeggero */
 let eta = Number(prompt('Quanti anni ha il passeggero?'));
+
+/* Prezzo base al km */
+const prezzoKm = 0.21;
 
