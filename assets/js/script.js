@@ -13,4 +13,6 @@
 /* Chiediamo i chilometri da percorrere all'utente */
 let km = Number(prompt('Quanti chilometri vuoi percorrere?'));
 
+/* Chiediamo l'età del passeggero */
+let eta = Number(prompt('Quanti anni ha il passeggero?'));
 
