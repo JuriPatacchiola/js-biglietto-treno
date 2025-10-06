@@ -31,3 +31,6 @@ if (eta < 18) {
 } else if (eta >= 65) {
     sconto = 0.40; // 40% di sconto
 }
+
+/* Calcolo il prezzo finale applicando lo sconto */
+let prezzoFinale = prezzoBase * (1 - sconto);
